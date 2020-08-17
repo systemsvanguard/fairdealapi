@@ -1,0 +1,49 @@
+<%- contentFor('body') %>
+  <section class="section">
+    <div class="container" id="contact">
+      <h1 class="myheading2 has-text-centered">Contact Us</h1>
+	    <p>Cat o'nine tails Pirate Round lugsail jolly boat weigh anchor swab chase hornswaggle bowsprit. Fore chantey bucko loot gangplank topgallant yawl gunwalls pink. Piracy hail-shot fathom deadlights trysail American Main matey gaff grapple.</p>
+
+	  <figure class="container image is-3by2">
+	    <img src="images/cars/img_camaro05.jpg" class="img-fluid rounded mx-auto d-block  has-text-centered" alt="Contact" />
+	  </figure>
+
+        <p>Yo-ho-ho brigantine lateen sail belaying pin fore pillage belay jury mast spirits. Haul wind ye maroon black jack gibbet Arr list square-rigged yard. Tack mizzenmast crow's nest Spanish Main driver topgallant mizzen gangway Sail ho.  Sail ho trysail rum pinnace tender ho crow's nest Jolly Roger yawl. Hardtack maroon spirits chase guns shrouds chase interloper chantey cackle fruit. Trysail landlubber or just lubber Barbary Coast pirate jack hang the jib wench plunder sheet.</p>
+
+		<p>Cat o'nine tails Pirate Round lugsail jolly boat weigh anchor swab chase hornswaggle bowsprit. Fore chantey bucko loot gangplank topgallant yawl gunwalls pink. Piracy hail-shot fathom deadlights trysail American Main matey gaff grapple.</p>
+
+		<div class="myheading2 has-text-centered">
+		</div>
+
+    </div>
+
+	<div class="has-text-success has-text-centered">
+	  <i class="fas fa-comments"></i> <strong><em>We would love to hear from you! </em></strong>
+	  <br />
+	  <i class="fas fa-phone"></i> 416-312-97XYZ | <i class="fas fa-envelope"></i> hvt @ RyanHunter.org  | <i class="fas fa-globe"></i> <a href="http://www.ryanhunter.org/">RyanHunter.org</a>
+	  <br />
+	  <i class="fas fa-compass"></i> 4060 Ridgeway Drive, Mississauga, ON L5L 5X9
+	  <br />
+	</div>
+  </section>
+<!-- Insert Map Location -->
+	  <div id="googleMap" style="height:400px;" class="map_location"></div>
+	  <script>
+	  function myMap() {
+		myCenter=new google.maps.LatLng(43.5273715, -79.7173738);
+		/* 4060 Ridgeway Drive, Mississauga */
+		var mapOptions= {
+		  center:myCenter,
+		  zoom:12, scrollwheel: false, draggable: true,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+		var marker = new google.maps.Marker({
+		  position: myCenter,
+		});
+		marker.setMap(map);
+	  }
+	  </script>
+
+	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDao5q0i8BCKJPZ2tBqWNb5zPwg4UNxq1k&callback=myMap"></script>
+<!-- End of Map Location -->

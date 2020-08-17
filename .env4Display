@@ -1,0 +1,8 @@
+DATABASE_HOST=localhost
+DATABASE_NAME=fairdealautos
+DATABASE_USER=developer
+DATABASE_PASSWORD=1****!
+PORT=8080
+APPNAME=FairDealAutos
+WEBMESSAGE=We will maintain your car in tip top shape!
+SECRET_KEY=abcd1234

@@ -1,0 +1,288 @@
+/* Portfolio site for fullstack developer Ryan Hunter | ryan@RyanHunter.org | GitHub handle : SystemsVanguard  */
+
+body {
+  font-family: "Mukta Malar", Helvetica, sans-serif;
+  font-size: 125%;
+}
+.mySlides {display: none}
+.antispam { display:none;}
+.itcert{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.mybold {
+    font-weight: bold;
+}
+
+.skillsHeadBlue {
+  font-weight: bold;
+  color: #00008b; 
+  font-size: 110%;
+}
+.skillsHeadGreen {
+  font-weight: bold;
+  color: #008b00; 
+  font-size: 110%;
+}
+
+.primetext {
+  color:#008b00;
+  /* color:#00008b; */
+}
+
+
+.mynavbar {
+  color: #00008b;
+}
+.mynavbar:hover {
+  color: #468b00;
+  background-color: #d9d9ff;
+}
+
+/* remove link underlines  */
+.link_no_underline:link {
+    text-decoration: none;
+	color: #008b00;
+}
+.link_no_underline:visited {
+    text-decoration: none;
+}
+.link_no_underline:hover {
+    text-decoration: none;
+}
+
+/* Styling for the Quote of the Day Script */
+.quotetext {
+	font-weight: bold;
+	color: #00008b; /* blue */
+	font-size: 125%;
+	font-family: 'Mukta Malar', sans-serif;
+}
+
+.quotesource {
+	font-style: italic;
+	color: #008b00; /* green */
+	font-size: 90%;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Styling the buttons in the About Me section with Hover Effect */
+.about_buttons1 {
+	background-color: #00008b; /* Deep Blue */
+	color: white;
+}
+.about_buttons1:hover {
+	background-color: #46008b;
+	color: #fffafa; /* snow white */
+}
+
+.about_buttons2 {
+	background-color: #8b0000; /* off-Maroon */
+	color: white;
+}
+.about_buttons2:hover {
+	background-color: #8b4600;
+	color: #fffafa; /* snow white */
+}
+
+.about_buttons3 {
+	background-color: #008b00; /* Deep Green */
+	color: white;
+}
+.about_buttons3:hover {
+	background-color: #008b8b;
+	color: #fffafa; /* snow white */
+}
+
+
+
+/* Headings */
+.myheading {
+	color:#00008b;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+.myheading2 {
+	color:#008b00;
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 1.875em;
+	text-align: center;
+	font-family: 'Lato', Arial, Verdana, sans-serif; 
+	/* font-family: "Mukta Malar", Helvetica, sans-serif; */
+}
+
+.myheading3 {
+	color:#008b00;
+	font-weight:bold;
+	text-align: center;
+	font-family: 'Lato', Arial, Verdana, sans-serif; 
+}
+
+.myheading4 {
+	color:#00008b;
+	font-weight:bold;
+	font-size: 1.1em;
+	text-align: center;
+	font-family: 'Lato', Arial, Verdana, sans-serif;
+}
+
+
+
+.mandatory{
+  color: #b22222;
+  font-weight:bold;
+  font-size: 90%; 
+}
+
+/* Ticker */
+.skillsticker {
+	font-family: 'Lato', Arial, Verdana, sans-serif;
+	padding-top:10px;
+	text-align: center;
+	color: #00008b; /* deep blue */
+	background-color: #ffffff; /* white */
+	font-weight:bold;
+	font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+/* Footer */
+.footer {
+  background-color: #ffffe0; /* light yellow */
+}
+
+.footerTitle {
+	color:#008b00; 
+	font-weight:bold;
+	font-family: "Mukta Malar", Helvetica, sans-serif;
+	font-size: 1.875em;
+}
+
+
+
+/* for form validation, using validate.js  */
+.help-block.error {
+  margin-bottom: 5px;
+}
+.messages {
+	font-style: italic;
+	font-size: 85%;
+	font-family: 'Lato', sans-serif;
+	color: crimson;
+}	
+	
+/* Button Opacity Hover Effect */
+.buttonMain {
+	border: 1px solid #00008b;
+	background-color: #00008b;
+	color: white;
+}
+.buttonMain:hover {
+	border: 2px solid #0000f6;
+	background-color: #0000f6;
+	color: white;
+	opacity: 0.7;
+	-moz-box-shadow: 0 0 10px #0000f6;
+	-webkit-box-shadow: 0 0 10px #0000f6;
+	box-shadow: 0 0 10px #0000f6;
+}
+
+
+
+.cardEffect1
+{ 
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ffefd5 #ffefd5 #ffefd5 #ffefd5;
+  background-color: #ffefd5; /* papaya whip  */
+  border-radius: 5px;  
+}
+.cardEffect1:hover
+{
+  /* Deep blue left border bar, with all other borders light purple. Light purple div background. */   
+  border-style: solid;
+  border-width: 1px 1px 1px 3px;
+  border-color: #0000cd #0000cd #0000cd #00008b;
+  background-color: #87cefa;  /* light sky blue  */
+  padding-left: 6px;
+  border-radius: 5px;  
+}
+
+
+.cardEffect2
+{ 
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ffffe0 #ffffe0 #ffffe0 #ffffe0;
+  background-color: #f2f2f2; /* light gray  */
+  border-radius: 5px;  
+}
+.cardEffect2:hover
+{
+  /* Deep purple left border bar, with all other borders deep blue. Light blue div background. */   
+  border-style: solid;
+  border-width: 1px 1px 1px 3px;
+  border-color: #32cd32 #32cd32 #32cd32 #008000;
+  background-color: #adff2f;  /* green yellow  */
+  padding-left: 6px;
+  border-radius: 5px;  
+}
+
+
+.portfolioCardEffect
+{ 
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ffffe0 #ffffe0 #ffffe0 #ffffe0;
+  background-color: #fffafa; /* snow white  */
+  border-radius: 5px;  
+}
+.portfolioCardEffect:hover
+{
+  /* Deep purple left border bar, with all other borders deep blue. Light blue div background. */   
+  border-style: solid;
+  border-width: 1px 1px 1px 3px;
+  border-color: #32cd32 #32cd32 #32cd32 #008000;
+  background-color: #ffffe0;  /* light yellow  */
+  border-radius: 5px;  
+}
+
+
+
+
+.map_location {
+  background-color: #f8f8ff; /* ghost white */
+}	
+
+.wisequotes {
+  background-color: #b0c4de; /* light steel blue */
+  padding: 15px 5px;
+}
+
+.carouselSlides {
+  background-color: #f0fff0;  /* HoneyDew  */
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.overlaycenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
