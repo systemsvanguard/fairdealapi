@@ -1,8 +1,21 @@
+PORT = 8080 
+
+HOST=localhost
+USER=developer
+PASSWORD=A10ShunOGr81!
+DB=fairdealautos
+
 DATABASE_HOST=localhost
 DATABASE_NAME=fairdealautos
 DATABASE_USER=developer
 DATABASE_PASSWORD=1****!
-PORT=8080
+
+# DATABASE_NAME=fairdealautos
+# DATABASE_USER=developer
+# DATABASE_PASSWORD=1****!
+
 APPNAME=FairDealAutos
 WEBMESSAGE=We will maintain your car in tip top shape!
 SECRET_KEY=abcd1234
+
+# free MySQL database hosting available at   www.db4free.net

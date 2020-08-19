@@ -1,0 +1,68 @@
+http://localhost:8080/api/jobs
+
+-- SELECT * FROM  jobs;
+INSERT INTO jobs (title, plate, description, notes, resolved, updatedAt, createdAt  ) 
+VALUES (
+  "Oil Change Due" ,
+  "BPTZ841",
+  "Oil change reminder light has come on, and stays on." ,
+  "Changed the oil and filter. Reset warning light.",
+  true, 
+  "2020-08-19",
+  "2020-08-19"
+) 
+
+
+-----------------------
+{
+  "title" : "Oil Change Due" ,
+  "plate" : "BPTZ841",
+  "description" : "Oil change reminder light has come on, and stays on." ,
+  "notes" : "Changed the oil and filter. Reset warning light.",
+  "resolved" : "true" 
+} ,
+
+{
+  "title" : "Car Will Not Drive at Night" ,
+  "plate" : "AZTN852",
+  "description" : "Car will not drive at night. Works fine during the day. Will turn on at night but will not move. " ,
+  "notes" : "PEBSWAC - Problem, Exists Between Steering Wheel and Chair. Driver believes gear 'D' means 'Day' and gear 'N' means 'Night'.", 
+  "resolved" : "true" 
+} , 
+
+{
+  "title" : "Gears Not Working" ,
+  "plate" : "APCT247",
+  "description" : "Car will not change gear, and makes a horrid noise when gear stick used. " ,
+  "notes" : "Driver while racing at high speed, shifted quickly to gear 'R' for 'Race' without downshifting first.  Car needs a new transmission. Driver needs a new brain.",
+  "resolved" : "false"  
+} ,
+
+
+{
+  "title" : "Engine Goes Missing Regularly" ,
+  "plate" : "BPTZ841",
+  "description" : "Customer frequently opens the front car hood, and does not see the car engine, but the car still drives. Customer wants to buy and put a new engine in the front hood vacant spot.",
+  "notes" : "The car is a VW Bug, and the engine is read mounted in what the customer calls the trunk. Engine working fine. Customer still wants to buy an engine for the front hood.",
+  "resolved" : "true" 
+} ,
+
+{
+  "title" : "New SUV Wont Start" ,
+  "plate" : "AELM453",
+  "description" : "SUV wont start or move anymore after trip to beach",
+  "notes" : "New engine needed. Customer on a hot summer day decided to let the car swim too at the beach, and cool off.  Engine now flooded. Customer also wants to buy swim lessons for car.",
+  "resolved" : "false" 
+} , 
+
+
+
+{
+  "title" : "Door Lock Not Opening" ,
+  "plate" : "ALFT562",
+  "description" : "Car door frequently stops working and will not open, trapping the passengers inside." ,
+  "notes" : "Driver does not understand how to operate door.  Keeps pushing instead of pulling to open the door, and repeatedly pulls the door from inside the car, instead of pushing, when seeking to exit car.  I demonstrated the proper technique to customer.  He understands about 50% of the process now.",
+  "fixed" : "true" 
+}
+
+
