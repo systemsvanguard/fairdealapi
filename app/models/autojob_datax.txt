@@ -1,6 +1,8 @@
 http://localhost:8080/api/jobs
 
 -- SELECT * FROM  jobs;
+-- DROP TABLE jobs ; 
+
 INSERT INTO jobs (title, plate, description, notes, resolved, updatedAt, createdAt  ) 
 VALUES (
   "Oil Change Due" ,
@@ -15,10 +17,10 @@ VALUES (
 
 -----------------------
 {
-  "title" : "Oil Change Due" ,
-  "plate" : "BPTZ841",
-  "description" : "Oil change reminder light has come on, and stays on." ,
-  "notes" : "Changed the oil and filter. Reset warning light.",
+  "title" : "Transmission Fluid Change Due" ,
+  "plate" : "CPTZ941",
+  "description" : "Transmission service reminder light has come on, and stays on." ,
+  "notes" : "Changed the transmission fluid. Reset warning light.",
   "resolved" : "true" 
 } ,
 
